@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="chess.css">
+    </head>
+    <body>
+        <h1>The Vienna</h1>
+        <p>There are two main ways two play the Vienna. The Vienna Gambit or the Vienna Game.</p>
+        <table style="width: 100%;">
+            <tr>
+                <td><a href="#gambitTop">The Vienna Gambit</a></td>
+                <td><a href="#gameTop">The Vienna Game</a></td>
+            </tr>
+        </table>
+        <p>Before we start, here's the full pgn.</p>
+        <p>1. e4 e5 2. Nc3 Nf6 (2... Nc6 3. Bc4 Bc5 (3... d6 4. d3) (3... Nf6 4. d3 Bc5 5. f4 d6 6. Nf3 Ng4 (6... O-O 7. f5) 7. Ng5 O-O 8. f5 Bf2+ 9. Kf1 Ne3+ 10. Bxe3 Bxe3 11. h4 Bxg5 12. hxg5 Qxg5 13. Rh5 Qf4+ 14. Kg1) 4. Qg4 Qf6 5. Nd5 Qxf2+ 6. Kd1 Kf8 7. Nh3 h5 8. Qg5 f6 9. Qg6 Rh6 10. Ne7) 3. f4 d5 (3... exf4 4. e5 Ng8 5. Nf3 d6 6. d4 dxe5 7. Qe2 Bb4 8. Qxe5+ Qe7 9. Bxf4) (3... d6 4. Nf3 Nc6 5. Bb5 Bd7 6. d3) 4. fxe5 Nxe4 5. Qf3 Nxc3 (5... f5 6. d3 Nxc3 7. bxc3 d4 (7...Be6) 8. Qg3 dxc3 9. Be2 Be6 10. Bf3 Nc6 11. Ne2 Qd7 12. Be3 Nb4 13. Rc1) (5...Nc6 6. Bb5 Nxc3 7. dxc3 Qh4+ 8. g3 Qe4+) 6. bxc3 (6. dxc3 Be6 7. Bf4 c5 8. O-O-O Nc6 9. Bc4) 6... Be7 7. d4 O-O 8. Bd3 Be6 9. Ne2 c5 10. O-O Nc6 11. Be3 *</p>
+        <p>You can upload PGNs <span><a href="https://lichess.org/paste" target="_blank">here.</a></span></p>
+        <p>But that doesn't exactly make much sense so lets do this properly</p>
+        <br>
+        <h2 id="gambitTop">The Vienna Gambit</h2>
+        <p>Every Vienna Gambit must start with:</p>
+        <p>1.e4 e5 2.Nc3 Nf6 3.f4</p>
+        <p>There are multiple variations of the Vienna Gambit. Here they are:</p>
+        <table style="width: 100%;">
+            <tr>
+                <td><a href="#gambitAccept">Accepted</a></td>
+                <td><a href="#gambitNc6">Decline Nc6</a></td>
+                <td><a href="#gambitd6">Decline d6</a></td>
+                <td><a href="#gambitd5">Counter d5</a></td>
+            </tr>
+        </table>
+        <br>
+        <div  id="gambitAccept">
+            <img src="Images/gambit-accept.png" alt="Gambit accepted position" class="img">
+            <h3>Vienna Gambit Accepted</h3>
+            <p>1.e4 e5 2.Nc3 Nf6 3.f4 <span class="newMove">exf4</span></p>
+            <p>Here you play:</p>
+            <p>4.e5 Ng8 5.Nf3 <span class="exampleMove">d6</span> 6.d4 <span class="exampleMove">dxe5</span> 7.Qe2 <span class="exampleMove">Bb4</span> 8.Qxe5 <span class="exampleMove">Qe7</span> 9.Bxf4</p>
+            <p>If they insted protect the pawn with g5, develop as you would normally but then play h4.</p>
+            <br>
+        </div>
+        <div  id="gambitNc6">
+            <img src="Images/gambit-nc6.png" alt="Gambit Nc6" class="img">
+            <h3>Decline with Nc6</h3>
+            <p>1.e4 e5 2.Nc3 Nf6 3.f4 <span class="newMove">Nc6</span></p>
+            <p>Here you play:</p>
+            <p>4. fxe5 Nxe5 5.d4 Ng6 5.e5 Ng8 
+            <p>From here just develop as you would with the accepted gambit. The computer also likes h4 h5 to kick away knight and then develop D.S bishop.</p>
+
+            <br>
+        </div>
+        <div  id="gambitd6">
+            <img src="Images/gambit-d6.png" alt="Gambit d6" class="img">
+            <h3>Decline with d6</h3>
+            <p>1.e4 e5 2.Nc3 Nf6 3.f4 <span class="newMove">d6</span></p>
+            <p>Here you play:</p>
+            <p>4.Nf3 <span class="exampleMove">Nc6</span> <span class="newMove">5.L.S Bishop out - Pin Knight if possible. Take if attacked</span><span class="exampleMove"> Bd7</span> 6.d3 <span class="exampleMove">g6</span> 7.O-O </p>
+            <p>Long term goals are to:</p>
+            <ul>
+                <li>Pressure e5</li>
+                <li>Open up F file</li>
+            </ul>
+            <br>
+        </div>
+        <div  id="gambitd5">
+            <h3>Counter with d5</h3>
+            <p>1.e4 e5 2.Nc3 Nf6 3.f4 <span class="newMove">d5</span></p>
+            <p>Here you play:</p>
+            <p>4.fxe5 Nxe4 <span class="newMove">5.Qf3</span></p>
+            <p>There is theory from here, but what 1100 is going this in-depth. Good luck my brother</p>
+            <br>
+        </div>
+
+        <h2 id="gameTop">The Vienna Game</h2>
+
+        
+
+
+
+
+
+        
+        
+
+        
+    </body>
+</html>

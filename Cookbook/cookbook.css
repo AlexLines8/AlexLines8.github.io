@@ -1,0 +1,76 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    background-image: url("Images/back5.jpg");
+    background-repeat: repeat-x; 
+}              
+
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    float: left;
+    padding-right: 10px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .box {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+
+  }
+  
+  .clearfix::after {
+    padding-bottom: 20px;
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  a{
+      text-decoration: none;
+      color: black;
+  }
+
+  a:hover{
+      color:blue;
+      font-size: 18px;
+  }
+
+
+
+
+
+
+
+/*
+.meal-images {   
+    width: 70%;
+    margin-top:90px;
+    margin-left: auto; 
+    margin-right: auto;
+
+     text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+.meal-images a {
+    vertical-align: top;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+}
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+*/
